@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    color: #333;
+  }
+  
+  header {
+    background: #0e1a2f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Define a cor inicial do link */
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #0e1a2f;;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #0e1a2f;
+    color: #D4AF37;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .footer-info {
+    margin-bottom: 20px;
+  }
+  
+  footer .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  footer .redes-sociais a {
+    color: #D4AF37;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  footer .redes-sociais a:hover {
+    color: white;
+  }
+  
+  footer .direitos {
+    font-size: 0.9rem;
+  }
+  
